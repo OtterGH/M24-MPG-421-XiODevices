@@ -35,10 +35,10 @@ Follow the steps below to prepare for opening the solution.
 	4.	Click Convert
 	5.	Click Copy To Clipboard
 	8.	Make a Device.cs file  -- OPEN SOLUTION XiODevices.sn
-		1.	VSCode >> new Text File
-		2.	Select Language >> C#
-		3.	Add “namespace Blank” and {}
-		4.	Paste between {}
-		5.	Change “public class Root” to ”public class Device”
-	6.	Save as Device.cs
-		1.	Remember where you saved it
+		1.	VS2022/2019 >> New >> File >> C# Class
+		2.	Set Name to Devices
+		3.	Cntl + A >> delete/backspace
+		4.	Paste
+		5.	Change “public partial class...” to ”public class...”
+  		6.	Move Usings out of namespace
+    		7.	Save
