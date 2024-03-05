@@ -8,10 +8,10 @@ Follow the steps below to prepare for opening the solution.
 		2.	Fill in the Key: Key = "XiO-subscription-key"
 		3.	Fill in the Value: Value = "[ get this value from the XiO admin or Account Settings]"
 		4.	Add Variable
-			1.	Variable = accountid
-			2.	Initial Value = [get this value from the XiO admin or Account Settings ]
+			1.	Variable = "accountid"
+			2.	Initial Value = "[get this value from the XiO admin or Account Settings ]"
 		5.	Add Request
-			1.	Name = Account-Groups
+			1.	Name = "Account-Groups"
 			2.	URL =  copy from https://sdkcon78221.crestron.com/sdk/Crestron_XiO_Cloud_SDK/Content/Topics/API-Reference.htm#AccountGroups
 			3.	Replace {accountid} with ({accountid}} variable
 			4.	Save and Send
@@ -31,9 +31,10 @@ Follow the steps below to prepare for opening the solution.
 7.	New Tab then GOTO https://app.quicktype.io/
 	1.	Paste the Body from the Group-Device request into JSON field
 	2.	Change Name to "Device"
-	3.	Set Generateed namespace to "XiODevice"
-	4.	Click Copy Code
-	5.	OPEN SOLUTION XiODevices.sn (https://github.com/OtterGH/M24-MPG-421-XiODevices/)
+ 	3.	Select C# as the Language
+	4.	Set Generateed namespace to "XiODevice"
+	5.	Click Copy Code
+	6.	OPEN SOLUTION XiODevices.sn (https://github.com/OtterGH/M24-MPG-421-XiODevices/)
 		1.	VS2022/2019 >> New >> File >> C# Class
 		2.	Set the Class Name to "Device"
 		3.	Cntl + A >> delete/backspace
