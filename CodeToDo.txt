@@ -1,9 +1,9 @@
 ﻿TODO #1:[Student] Make Acccount and Group ID string variable - Copy Values from Postman XiO Workspace Variables
 	string accountid = "6464bbc2-56ec-4638-97f0-f4ecec241476";
-    string groupid1 = "04761d1d-4a16-4d70-bd59-987199fd167c";
+    string groupid = "04761d1d-4a16-4d70-bd59-987199fd167c";
 
 TODO #2:[Student] Make URL string variable - Copy URL from Device Request (Remove the extra {} from the Account and Group IDs)
-	string url = $"https://api.crestron.io/api/v1/group/accountid/{accountid}/groupid/{groupid1}/devices";
+	string url = $"https://api.crestron.io/api/v1/group/accountid/{accountid}/groupid/{groupid}/devices";
 
 TODO #3:[Student] Make the Http Request Message package with Method and URL - reference Postman Code
 	HttpRequestMessage httpRequestMessage = new HttpRequestMessage(HttpMethod.Get, url);
