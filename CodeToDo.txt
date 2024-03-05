@@ -14,7 +14,7 @@ TODO #6:[Student] Add Header to Http Request Message containing the Subscription
 TODO #5:[Student] Make the Client
 	HttpClient httpClient = new HttpClient();
 
-TODO #6:[Student] Make Http ResponSe Message and await the SendAsync of Http Request Message
+TODO #6:[Student] Make Http Response Message and await the SendAsync of Http Request Message
 	HttpResponseMessage httpResponseMessage = await httpClient.SendAsync(httpRequestMessage);
 
 TODO #7:[Instructor Lead] Grab the response as string

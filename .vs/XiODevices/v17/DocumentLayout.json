@@ -1,7 +1,16 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\jottesen\\Documents\\Visual Studio 2022\\Masters2024\\XiODevices\\",
-  "Documents": [],
+  "WorkspaceRootPath": "C:\\Users\\jottesen\\source\\repos\\OtterGH\\M24-MPG-421-XiODevices\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4829E1A1-8056-46EC-9B4F-61306868B053}|XiODevices.csproj|c:\\users\\jottesen\\source\\repos\\ottergh\\m24-mpg-421-xiodevices\\codetodo.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{4829E1A1-8056-46EC-9B4F-61306868B053}|XiODevices.csproj|solutionrelative:codetodo.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4829E1A1-8056-46EC-9B4F-61306868B053}|XiODevices.csproj|c:\\users\\jottesen\\source\\repos\\ottergh\\m24-mpg-421-xiodevices\\controlsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4829E1A1-8056-46EC-9B4F-61306868B053}|XiODevices.csproj|solutionrelative:controlsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 1,
@@ -9,8 +18,34 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CodeToDo.txt",
+              "DocumentMoniker": "C:\\Users\\jottesen\\source\\repos\\OtterGH\\M24-MPG-421-XiODevices\\CodeToDo.txt",
+              "RelativeDocumentMoniker": "CodeToDo.txt",
+              "ToolTip": "C:\\Users\\jottesen\\source\\repos\\OtterGH\\M24-MPG-421-XiODevices\\CodeToDo.txt",
+              "RelativeToolTip": "CodeToDo.txt",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-03-05T16:11:04.409Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ControlSystem.cs",
+              "DocumentMoniker": "C:\\Users\\jottesen\\source\\repos\\OtterGH\\M24-MPG-421-XiODevices\\ControlSystem.cs",
+              "RelativeDocumentMoniker": "ControlSystem.cs",
+              "ToolTip": "C:\\Users\\jottesen\\source\\repos\\OtterGH\\M24-MPG-421-XiODevices\\ControlSystem.cs",
+              "RelativeToolTip": "ControlSystem.cs",
+              "ViewState": "AQIAABMAAACA/////38pwDQAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-05T16:10:40.019Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
@@ -30,10 +65,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             }
           ]
         },

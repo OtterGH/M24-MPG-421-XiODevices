@@ -50,7 +50,7 @@ namespace XiODevices
             
             // TODO #5:[Student] Make the Client
             
-            // TODO #6:[Student] Make Http ResponSe Message and await the SendAsync of Http Request Message 
+            // TODO #6:[Student] Make Http Response Message and await the SendAsync of Http Request Message 
             
             // TODO #7:[Instructor Discuss] Grab the response as string
             
