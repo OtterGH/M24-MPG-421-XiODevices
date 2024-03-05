@@ -1,0 +1,30 @@
+﻿TODO #1:[Student] Make Acccount and Group ID string variable - Copy Values from Postman XiO Workspace Variables
+	string accountid = "6464bbc2-56ec-4638-97f0-f4ecec241476";
+    string groupid1 = "04761d1d-4a16-4d70-bd59-987199fd167c";
+
+TODO #2:[Student] Make URL string variable - Copy URL from Device Request (Remove the extra {} from the Account and Group IDs)
+	string url = $"https://api.crestron.io/api/v1/group/accountid/{accountid}/groupid/{groupid1}/devices";
+
+TODO #3:[Student] Make the Http Request Message package with Method and URL - reference Postman Code
+	HttpRequestMessage httpRequestMessage = new HttpRequestMessage(HttpMethod.Get, url);
+
+TODO #6:[Student] Add Header to Http Request Message containing the Subscription Key - Copy Values from Postman XiO Auth
+	httpRequestMessage.Headers.Add("XiO-subscription-key", "e536f25f3a4f4e03a65c763bbea1099c");
+
+TODO #5:[Student] Make the Client
+	HttpClient httpClient = new HttpClient();
+
+TODO #6:[Student] Make Http ResponSe Message and await the SendAsync of Http Request Message
+	HttpResponseMessage httpResponseMessage = await httpClient.SendAsync(httpRequestMessage);
+
+TODO #7:[Instructor Lead] Grab the response as string
+	string json = httpResponseMessage.Content.ReadAsStringAsync().Result;
+
+TODO #8:[Instructor Lead] Deserialize in to a list of Device
+	List<Device> devices = JsonConvert.DeserializeObject<List<Device>>(json);
+
+TODO #9:[Student >> Instructor]  Proof of life, loop through the devices list and log DeviceName
+	devices.ForEach(x => ErrorLog.Notice(x.DeviceName));
+
+TODO Last:[Student] Add Call to GetXiODevices
+	GetXiODevices();
