@@ -6,7 +6,7 @@ Follow the steps below to prepare for opening the solution.
 	1.	Add Authorization
 		1.	Type = API Key
 		2.	Fill in the Key: Key = "XiO-subscription-key"
-		3.	Fill in Value = [ get this value from the XiO admin or Account Settings]
+		3.	Fill in the Value: Value = "[ get this value from the XiO admin or Account Settings]"
 		4.	Add Variable
 			1.	Variable = accountid
 			2.	Initial Value = [get this value from the XiO admin or Account Settings ]
