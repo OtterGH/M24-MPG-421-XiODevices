@@ -24,8 +24,8 @@ Follow the steps below to prepare for opening the solution.
 6.	Add Request
 	1.	Name = Group-Devices
 	2.	URL =  copy from https://sdkcon78221.crestron.com/sdk/Crestron_XiO_Cloud_SDK/Content/Topics/API-Reference.htm#GroupDevices
-	3.	Replace {{accountid}} with {accountid} variable
-	4.	Replace {{groupid}} with {groupid} variable
+	3.	Replace {accountid} with {{accountid}} variable
+	4.	Replace {{groupid}} with {{groupid}} variable
 	5.	Save and Send
 	6.	Select ALL in the return body window
 7.	New Tab then GOTO https://json2csharp.com/
