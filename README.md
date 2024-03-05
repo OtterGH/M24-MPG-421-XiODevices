@@ -1,3 +1,6 @@
+Follow the steps below to prepare for opening the solution.
+
+
 1.	GOTO postman.com or OPEN Postman
 2.	Add Workspace = XiO-API
 	1.	Add Authorization
@@ -31,7 +34,7 @@
 	3.	Select Add JsonProperty
 	4.	Click Convert
 	5.	Click Copy To Clipboard
-	8.	Make a Device.cs file
+	8.	Make a Device.cs file  -- OPEN SOLUTION XiODevices.sn
 		1.	VSCode >> new Text File
 		2.	Select Language >> C#
 		3.	Add “namespace Blank” and {}
