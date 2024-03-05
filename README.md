@@ -28,15 +28,14 @@ Follow the steps below to prepare for opening the solution.
 	4.	Replace {{groupid}} with {{groupid}} variable
 	5.	Save and Send
 	6.	Select ALL in the return body window
-7.	New Tab then GOTO https://json2csharp.com/
-	1.	Paste the Body from the Group-Device request
-	2.	Select Use Pascal Case
-	3.	Select Add JsonProperty
-	4.	Click Convert
-	5.	Click Copy To Clipboard
-	8.	Make a Device.cs file  -- OPEN SOLUTION XiODevices.sn
+7.	New Tab then GOTO https://app.quicktype.io/
+	1.	Paste the Body from the Group-Device request into JSON field
+	2.	Change Name to "Device"
+	3.	Set Generateed namespace to "XiODevice"
+	4.	Click Copy Code
+	5.	OPEN SOLUTION XiODevices.sn (https://github.com/OtterGH/M24-MPG-421-XiODevices/)
 		1.	VS2022/2019 >> New >> File >> C# Class
-		2.	Set Name to Devices
+		2.	Set the Class Name to "Device"
 		3.	Cntl + A >> delete/backspace
 		4.	Paste
 		5.	Change “public partial class...” to ”public class...”
