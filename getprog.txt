@@ -1,0 +1,46 @@
+
+$headers = New-Object "System.Collections.Generic.Dictionary[[String],[String]]"
+$headers.Add("Authorization", "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6ImFhODkxNWI5LTBmNDEtNGNjZi05Mjk1LTY0Y2Y3OGY0MzNkMCIsImx2IjoiRGVmYXVsdCBMZXZlbCIsInZlciI6IjEuMCIsImV4cGkiOiIwIn0.oHf1gXcAxw9usxRnZsXsQsMMs7N-6IeirS2ZFF2irPQ")
+$headers.Add("accept", "application/json")
+$headers.Add("Content-Type", " multipart/form-data")
+#$headers.Add("output_mode", "json")
+
+
+
+$Url = "http://10.0.1.21/VirtualControl/config/api/ProgramLibrary"
+
+$result = Invoke-RestMethod -Uri $Url -Method Get -Headers $headers
+
+$numProgs = $result| ConvertTo-Json -Depth 2
+
+$split = $numProgs.Split("@")
+$split2 = $split[1].Split("`"")
+$prognumb = $split2[0].Trim("{}")
+$prognumb = $prognumb.Replace("=","")
+$prognumb = $prognumb.Replace("`;","`,")
+$pn = @($prognumb.Split("`,"))
+$pn.Count
+
+$progIndex = [Object[]]::new($pn.Count)
+
+$count = 0
+
+foreach($i in $pn)
+{
+    $progIndex[$count] = $i.Trim()
+
+    ++$count
+}
+
+$y = [Object[]]::new($progIndex.Count)
+
+$count = 0
+
+foreach($x in $progIndex)
+{
+    $y[$count] = $result.Device.Programs.ProgramLibrary."$x"
+    
+    ++$count
+}
+
+$y.Count
