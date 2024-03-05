@@ -40,5 +40,4 @@ Follow the steps below to prepare for opening the solution.
 		3.	Cntl + A >> delete/backspace
 		4.	Paste
 		5.	Change “public partial class...” to ”public class...”
-  		6.	Move Usings out of namespace
-    		7.	Save
+  		6.	Move Usings out of namespace and Save
