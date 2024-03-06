@@ -4,30 +4,32 @@ Follow the steps below to prepare for opening the solution.
 1.	GOTO postman.com or OPEN Postman
 2.	Add Workspace = XiO-API
 	1.	Add Authorization
-		1.	Type = API Key
+		1.	Select the Type dropdown to "API Key"
 		2.	Fill in the Key: Key = "XiO-subscription-key"
 		3.	Fill in the Value: Value = "[ get this value from the XiO admin or Account Settings]"
 		4.	Add Variable
-			1.	Variable = "accountid"
+			1.	Name Variable = "accountid"
 			2.	Initial Value = "[get this value from the XiO admin or Account Settings ]"
 		5.	Add Request
-			1.	Name = "Account-Groups"
-			2.	URL =  copy from https://sdkcon78221.crestron.com/sdk/Crestron_XiO_Cloud_SDK/Content/Topics/API-Reference.htm#AccountGroups
-			3.	Replace {accountid} with ({accountid}} variable
-			4.	Save and Send
+			1.	Name the Request "Account-Groups"
+			2.	Paste this into the URL https://api.crestron.io/api/v1/group/accountid/{accountid}/groups
+   			3.	Save
+   			4.	Replace {accountid} with ({accountid}}
+			5.	Save and Send
 			6.	Locate Your Room and Copy the “id” value
 3.	Locate Your Room and Copy the “id” value – if you have not
 4.	GOTO XiO-API >> Variables
 5.	Add Variable
-	1.	Variable = groupid
-	2.	Initial Value = paste “id” value you copied
+	1.	Name Variable = "groupid"
+	2.	Fill the Value by pasting the “id” value you copied
 6.	Add Request
-	1.	Name = Group-Devices
-	2.	URL =  copy from https://sdkcon78221.crestron.com/sdk/Crestron_XiO_Cloud_SDK/Content/Topics/API-Reference.htm#GroupDevices
-	3.	Replace {accountid} with {{accountid}} variable
-	4.	Replace {{groupid}} with {{groupid}} variable
-	5.	Save and Send
-	6.	Select ALL in the return body window
+	1.	Name the Request "Group-Devices"
+	2.	Paste this into the URL https://api.crestron.io/api/v1/group/accountid/{accountid}/groupid/{groupid}/devices
+ 	3.	Save
+	4.	Replace {accountid} with {{accountid}} variable
+	5.	Replace {{groupid}} with {{groupid}} variable
+	6.	Save and Send
+	7.	Select ALL in the return body window
 7.	New Tab then GOTO https://app.quicktype.io/
 	1.	Paste the Body from the Group-Device request into JSON field
 	2.	Change Name to "Device"
