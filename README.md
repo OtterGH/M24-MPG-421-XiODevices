@@ -33,7 +33,7 @@ Follow the steps below to prepare for opening the solution.
 7.	New Tab then GOTO https://app.quicktype.io/
 	1.	Paste the Body from the Group-Device request into JSON field
 	2.	Change Name to "Device"
- 	3.	Select C# as the Language
+ 	3.	Select "C#" as the Language
 	4.	Set Generateed namespace to "XiODevices"
  	5.	Select Attributes Only	
 	6.	Click Copy Code
@@ -44,3 +44,4 @@ Follow the steps below to prepare for opening the solution.
 		4.	Paste
 		5.	Change “public partial class...” to ”public class...”
   		6.	Move Usings out of namespace to the top of the file and Save
+TIME TO CODE
