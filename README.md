@@ -44,4 +44,6 @@ Follow the steps below to prepare for opening the solution.
 		4.	Paste
 		5.	Change “public partial class...” to ”public class...”
   		6.	Move Usings out of namespace to the top of the file and Save
+  
+
 TIME TO CODE
