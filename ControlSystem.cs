@@ -10,7 +10,6 @@ using Newtonsoft.Json;
 
 namespace XiODevices
 {
-    //Delete all junk to start
     public class ControlSystem : CrestronControlSystem
     {
         public ControlSystem()

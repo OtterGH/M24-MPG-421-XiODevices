@@ -1,6 +1,6 @@
 ﻿TODO #1:[Student] Make Acccount and Group ID string variable - Copy Values from Postman XiO Workspace Variables
 	string accountid = "3c141602-0dbe-46bf-be42-9225a532d82e";
-	string groupid = "acfeeecd9f5148a1af1a8786e2ca6c1a";
+    string groupid = "20d9de92-205f-4d3e-a592-ecefad3ce3dd";
 
 TODO #2:[Student] Make URL string variable - Copy URL from Device Request (Remove the extra {} from the Account and Group IDs)
 	string url = $"https://api.crestron.io/api/v1/group/accountid/{accountid}/groupid/{groupid}/devices";
@@ -9,7 +9,7 @@ TODO #3:[Student] Make the Http Request Message package with Method and URL - re
 	HttpRequestMessage httpRequestMessage = new HttpRequestMessage(HttpMethod.Get, url);
 
 TODO #6:[Student] Add Header to Http Request Message containing the Subscription Key - Copy Values from Postman XiO Auth
-	httpRequestMessage.Headers.Add("XiO-subscription-key", "e536f25f3a4f4e03a65c763bbea1099c");
+	httpRequestMessage.Headers.Add("XiO-subscription-key", "acfeeecd9f5148a1af1a8786e2ca6c1a");
 
 TODO #5:[Student] Make the Client
 	HttpClient httpClient = new HttpClient();
