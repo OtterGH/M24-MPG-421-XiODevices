@@ -45,7 +45,7 @@ namespace XiODevices
             
             // TODO #3:[Student] Make the Http Request Message package with Method and URL - reference Postman Code
             
-            // TODO #6:[Student] Add Header to Http Request Message containing the Subscription Key - Copy Values from Postman XiO Auth
+            // TODO #4:[Student] Add Header to Http Request Message containing the Subscription Key - Copy Values from Postman XiO Auth
             
             // TODO #5:[Student] Make the Client
             
