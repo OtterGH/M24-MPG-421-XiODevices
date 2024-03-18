@@ -8,7 +8,7 @@ TODO #2:[Student] Make URL string variable - Copy URL from Device Request (Remov
 TODO #3:[Student] Make the Http Request Message package with Method and URL - reference Postman Code
 	HttpRequestMessage httpRequestMessage = new HttpRequestMessage(HttpMethod.Get, url);
 
-TODO #6:[Student] Add Header to Http Request Message containing the Subscription Key - Copy Values from Postman XiO Auth
+TODO #4:[Student] Add Header to Http Request Message containing the Subscription Key - Copy Values from Postman XiO Auth
 	httpRequestMessage.Headers.Add("XiO-subscription-key", "acfeeecd9f5148a1af1a8786e2ca6c1a");
 
 TODO #5:[Student] Make the Client
